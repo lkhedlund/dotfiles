@@ -3,4 +3,9 @@
 - link:
     ~/.zshrc: zshrc
 
-
+- shell:
+  - [git submodule update --init --recursive, Install submodules]
+  - command: ./init.sh
+    stdin: true
+    stderr: true
+    stdout: true
