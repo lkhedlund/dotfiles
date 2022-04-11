@@ -5,7 +5,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Install submodules]
-  - command: ./init.sh
+  - command: chmod +x ./init.sh && ./init.sh
     stdin: true
     stderr: true
     stdout: true
