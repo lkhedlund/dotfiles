@@ -2,7 +2,6 @@
 
 - link:
     ~/.zshrc: zshrc
-    ~/.oh-my-zsh: zsh/oh-my-zsh
 
 - shell:
   - [git submodule update --init --recursive, Install submodules]
