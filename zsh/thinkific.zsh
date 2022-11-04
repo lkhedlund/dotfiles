@@ -10,6 +10,8 @@ func engine_rspec() {
   if [[ $1 =~ (engines\/[A-Za-z]+)\/(.*) ]]
   then
     bundle exec rspec ${BASH_REMATCH[2]}
+  else
+    bin/rails rspec $1
   fi
 }
 
