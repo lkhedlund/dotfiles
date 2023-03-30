@@ -7,9 +7,10 @@ func run_rspec() {
   then
     bundle exec rspec ${match[2]}
   else
-    bin/rails rspec $1
+    bin/spring rspec $1
   fi
 }
+
 func create_pr() {
   # Defaults to staging, but any branch can be passed in
   base_branch=${1:-staging}
