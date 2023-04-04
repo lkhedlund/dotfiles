@@ -11,4 +11,5 @@ alias rails-up="bin/rails s"
 alias rails-reset="bin/spring stop && bin/rails s"
 alias bx="bundle exec"
 alias bxr="bundle exec rspec"
-alias shoryuken-up='bundle exec shoryuken -R -C config/shoryuken.yml'
+alias shoryuken-up="bundle exec shoryuken -R -C config/shoryuken.yml"
+alias flush-sidekiq="echo 'Sidekiq.redis { |r| r.flushall }' | bundle exec rails c"
