@@ -2,6 +2,8 @@
 
 # Set up global gitignore
 git config --global core.excludesfile ~/.dotfiles/git/.gitignore_global
+git config --global user.name "Lars Hedlund"
+git config --global user.email lkhedlund@gmail.com
 
 # Install oh-my-zsh
 if [[ ! -d $HOME/.oh-my-zsh ]]; then
