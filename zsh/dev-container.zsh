@@ -7,7 +7,7 @@ func run_rspec() {
   then
     bundle exec rspec ${match[2]}
   else
-    bin/spring rspec $1
+    bundle exec rspec $1
   fi
 }
 
