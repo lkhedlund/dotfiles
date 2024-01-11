@@ -11,3 +11,6 @@ if [[ -d "$HOME/.nvm" ]]; then
   # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
   # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 fi
+
+# Set up global gitignore
+git config --global core.excludesfile ~/.dotfiles/git/.gitignore_global
