@@ -14,3 +14,5 @@ alias bxr="bundle exec rspec"
 alias shoryuken-up="bundle exec shoryuken -R -C config/shoryuken.yml"
 alias flush-sidekiq="echo 'Sidekiq.redis { |r| r.flushall }' | bundle exec rails c"
 alias bundle-install="bundle install && BUNDLE_GEMFILE=Gemfile.next bundle install"
+# Godot
+alias gd-themes="git clone https://github.com/godotengine/godot-syntax-themes.git ~/Library/Application\ Support/Godot/text_editor_themes"

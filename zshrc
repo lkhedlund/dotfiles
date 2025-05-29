@@ -32,6 +32,5 @@ include $ZSH_FOLDER/plugins.zsh
 include $ZSH_FOLDER/aliases.zsh
 if [[ $(uname) = Darwin ]]; then
   include $ZSH_FOLDER/mac.zsh
-  include $ZSH_FOLDER/thinkific.zsh
 fi
 [[ ${REMOTE_CONTAINERS} ]] && include $ZSH_FOLDER/dev-container.zsh
